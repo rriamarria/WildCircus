@@ -1,0 +1,1093 @@
+@import url("https://fonts.googleapis.com/css?family=Chilanka|Gochi+Hand|Amatic+SC&display=swap");
+
+.w {
+  color: red;
+}
+.i {
+  color: blue;
+}
+.l {
+  color: yellow;
+}
+.d {
+  color: purple;
+}
+.c {
+  color: #ea096f;
+}
+.i-second {
+  color: #cd6a07;
+}
+.r {
+  color: #00e8da;
+}
+.c-second {
+  color: yellow;
+}
+.u {
+  color: blue;
+}
+.s {
+  color: red;
+}
+body,
+html,
+nav {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.logo,
+nav, nav > ul, 
+.title, .card-text, .about-title, 
+.about-textf, .about-texts,.signature,
+.prices,.prices-title,small,.n-helper,
+.contact-title,.btn,.dev-logo,.footer-message,
+.CA,.SL,.WCS,.icon {
+    position: absolute;
+}
+section, form, footer {
+    position: relative;
+}
+.logo {
+    z-index: 200;
+    left: 3%;
+    font-size: 40px;
+    margin-top: 10px;
+    letter-spacing: 6px;
+    font-weight:bold;
+  }
+
+  .first-nav-item,
+  .second-nav-item,
+  .third-nav-item {
+    position: absolute;
+    letter-spacing: 1px;
+  }
+  nav {
+    font-family: "Amatic SC", cursive;
+    top: 0%;
+    height: 60px;
+    padding-left:0!important;
+    margin: 0;
+  }
+
+  nav > ul {
+    background: #1ca588;
+    margin: 0;
+    padding-left: 0;
+    width: 100%;
+    list-style-type: none;
+
+  }
+  nav > ul > li {
+    background: #1ca588;
+    display: block;
+    float: right;
+    padding: 1rem;
+    text-decoration: none;
+    transition-duration: 0.5s;
+
+  }
+
+  nav > ul > li > a {
+    font-size: 20px;
+    font-weight: bolder;
+    color: black;
+  }
+  nav>ul>li:hover,
+  nav>ul>li:focus-within {
+    background: #40e0d0;
+    cursor: pointer;
+  }
+  section {
+    width: 100%;
+    height: 100%;
+  }
+  .title {
+    font-family: "Amatic SC", cursive;
+    letter-spacing: 6px;
+    font-weight: bolder;
+  }
+  .t-card-title,
+  .f-card-title,
+  .s-card-title {
+    font-family: "Amatic SC", cursive;
+    font-size: 29px;
+    position: absolute;
+  }
+  .t-card-title {
+    left: 38%;
+  }
+  .card-text {
+    text-align: center;
+    font-family: "Chilanka", cursive;
+    text-shadow: 0px 0px 20px #65ceb3;
+  }
+
+  .card-img-top {
+    -webkit-box-shadow: -1px -11px 39px -10px rgba(43, 186, 157, 1);
+    -moz-box-shadow: -1px -11px 39px -10px rgba(43, 186, 157, 1);
+    box-shadow: -1px -11px 39px -10px rgba(43, 186, 157, 1);
+  }
+
+  .about-title {
+    font-family: "Amatic SC", cursive;
+    font-weight: bolder;
+  }
+  .about-textf {
+    font-family: "Amatic SC", cursive;
+    text-shadow: 0px 0px 20px #65ceb3;
+    font-weight: bold;
+  }
+  .about-texts {
+    font-family: "Chilanka", cursive;
+    text-shadow: 10px 7px 20px #65ceb3;
+  }
+  .signature {
+    font-family: "Amatic SC", cursive;
+    text-shadow: 10px 7px 20px #65ceb3;
+    font-weight: bolder;
+  }
+
+  .prices {
+    border: 10px solid #2e96a4;
+    text-align: center;
+    border-collapse: collapse;
+  }
+
+  .prices-title {
+    font-family: "Amatic SC", cursive;
+    font-weight: bolder;
+  }
+
+  .prices td,
+  .prices th {
+    border: 1px solid #aaaaaa;
+    padding: 3px 2px;
+  }
+
+  table.prices thead {
+    background: #249fa4;
+  }
+
+  table.prices thead th {
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+  }
+
+  small {
+    color: dimgray;
+  }
+
+  .contact-title {
+    font-family: "Amatic SC", cursive;
+    font-weight: bolder;
+  }
+
+  form {
+    margin: 0 auto;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+    background-color: rgb(64, 224, 208, 0.2);
+  }
+
+  form div + div {
+    margin-top: 1em;
+  }
+
+  label {
+    display: inline-block;
+    text-align: right;
+  }
+
+  input,
+  textarea {
+    font: 1em sans-serif;
+    box-sizing: border-box;
+    border: 1px solid #999;
+    border-radius:10px;
+    position: absolute;
+  }
+  textarea {
+    vertical-align: top;
+    height: 5em;
+    outline-style: none;
+    -moz-outline-style: none;
+    overflow: auto;
+    resize: none;
+  }
+
+  input:focus,
+  textarea:focus {
+    border-color: #000;
+  }
+
+  ::placeholder {
+    color: lightgrey;
+    font-size: 0.3;
+  }
+  
+  footer {
+      width: 100%;
+      background-color: #1CA588;
+      text-decoration: none;
+      color: black;
+  }
+
+
+li {
+    list-style-type: none;
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+  .background {
+    display: none;
+  }
+
+  .first-nav-item {
+    left: 53%;
+  }
+
+  .second-nav-item {
+    left: 70%;
+  }
+
+  .third-nav-item {
+    left: 75%;
+  }
+
+  nav {
+    width: 99.1%;
+  }
+
+  nav > ul {
+    right: 0px;
+    width: 100%;
+  }
+
+  .first-section {
+    top: 0px;
+    height: 1000px;
+  }
+  .second-section {
+    top: 30px;
+    height: 1400px;
+  }
+  .third-section {
+    height: 400px;
+  }
+  .fourth-section {
+      height: 500px;
+  }
+
+  .title {
+    top: 60px;
+    left: 32%;
+    font-size: 33px;
+  }
+  .first-card,
+  .second-card,
+  .third-card {
+    position: absolute;
+    left: 20%;
+  }
+  .first-card {
+    top: 190px;
+  }
+  .second-card {
+    top: 650px;
+  }
+  .third-card {
+    top: 1100px;
+  }
+  .f-card-title,
+  .s-card-title {
+    left: 45%;
+  }
+  h3.f-card-title {
+      top: 190px;
+  }
+  .t-card-title,
+  .f-card-title,
+  .s-card-title {
+    top: 200px;
+  }
+  .t-card-title {
+    left: 38%;
+  }
+  .card-text {
+    left: 8%;
+    top: 250px;
+  }
+
+
+  .about-title {
+    top: 540px;
+    font-size: 33px;
+    left: 45%;
+  }
+  .about-img {
+    display: none;
+  }
+  .about-textf {
+    top: 620px;
+    left: 15%;
+    font-size: 22px;
+  }
+  .about-texts {
+    top: 690px;
+    width: 78%;
+    left: 15%;
+    text-align: left;
+    font-size: 15px!important;
+    letter-spacing: 1px;
+  }
+  .signature {
+    font-size: 29px;
+    top: 1200px;
+    left: 66%;
+  }
+  .prices {
+    top: 90px;
+    left: 3.5%;
+    width: 50%;
+  }
+  .prices-title {
+    top: 0px;
+    left: 43.5%;
+    font-size: 33px;
+  }
+  .prices tbody td {
+    font-size: 15px;
+  }
+  table.prices thead th {
+    font-size: 15px;
+  }
+
+  small {
+    left: 110px;
+    font-size: 13px;
+  }
+
+  .n-helper {
+    top: 42px;
+    left: 23%;
+  }
+
+  .e-helper {
+    top: 89px;
+    left: 23%;
+  }
+  .contact-title {
+    left: 40%;
+    font-size: 33px;
+  }
+  form {
+    width: 420px;
+    top: 80px;
+    left:1%;
+    height: 240px;
+  }
+
+  label {
+    width: 90px;
+  }
+
+  input,
+  textarea {
+    width: 300px;
+  }
+
+  .btn {
+    padding-left: 90px;
+    margin-left: 0.5em;
+    bottom: 8px;
+    height: 34px;
+    left: 21%;
+  }
+
+  footer {
+      height: 85px;
+  }
+  .dev-logo {
+      top: 6px;
+      left: 10px;
+  }
+  .footer-message {
+      bottom: 2px;
+      left: 34px;
+  }
+  .CA,.SL,.WCS {
+      top: 12px;
+      margin: 0;
+      padding: 0;
+      font-size: 13px;
+  }
+  .CA {
+      left: 150px;
+  }
+  .SL{
+    left: 270px;
+  }
+  .WCS {
+    left: 360px;
+  }
+  .icon { 
+    width: 23px;
+    height: 23px;
+    top: 9px;
+}
+.i-one {
+    left: 129px;
+}
+.i-two {
+    left: 247px;
+}
+.i-three {
+    left: 337px;
+}
+}
+@media (min-width: 481px) and (max-width: 767px) {
+      .background {
+        display: none;
+      }
+      .first-nav-item {
+        left: 42%;
+      }
+      .second-nav-item {
+        left: 62%;
+      }
+      .third-nav-item {
+        left: 75%;
+      }
+    
+      nav {
+        width: 99.1%;
+      }
+      nav > ul {
+        right: 0px;
+      }
+      .first-section {
+        top: 0px;
+        height: 993px;
+      }
+      .second-section {
+        height: 1200px;
+      }
+      .third-section {
+        height: 400px;
+      }
+      .fourth-section {
+          height: 400px;
+      }
+    
+      .title {
+        top: 60px;
+        left: 36%;
+        font-size: 33px;
+      }
+      .first-card,
+      .second-card,
+      .third-card {
+        position: absolute;
+        left: 20%;
+      }
+      .first-card {
+        top: 190px;
+      }
+      .second-card {
+        top: 650px;
+      }
+      .third-card {
+        top: 1100px;
+      }
+      .f-card-title,
+      .s-card-title {
+        left: 40%;
+      }
+      h3.f-card-title {
+          top: 190px;
+      }
+      .t-card-title,
+      .f-card-title,
+      .s-card-title {
+        font-family: "Amatic SC", cursive;
+        font-size: 29px;
+        position: absolute;
+      }
+      .t-card-title {
+        left: 38%;
+      }
+      .card-text {
+        left: 2%;
+        top: 250px;
+      }
+      .about-title {
+        top: 540px;
+        font-size: 33px;
+        left: 40%;
+      }
+      .about-img {
+        display: none;
+      }
+      .about-textf {
+        top: 620px;
+        left: 12.5%;
+        font-size: 22px;
+      }
+      .about-texts {
+        top: 670px;
+        width: 78%;
+        left: 10%;
+        text-align: align-left;
+        font-size: 20px;
+      }
+      .signature {
+        font-size: 29px;
+        top: 1100px;
+        left: 66%;
+      }
+      .prices {
+        top: 90px;
+        left: 10%;
+        width: 50%;
+      }
+      .prices-title {
+        top: 0px;
+        left: 43.5%;
+        font-size: 33px;
+      }
+      .prices tbody td {
+        font-size: 15px;
+      }
+      table.prices thead th {
+        font-size: 15px;
+      }
+    
+      small {
+        left: 110px;
+        font-size: 13px;
+      }
+    
+      .n-helper {
+        top: 42px;
+        left: 23%;
+      }
+    
+      .e-helper {
+        top: 89px;
+        left: 23%;
+      }
+
+      .contact-title {
+        left: 43%;
+        font-size: 33px;
+      }
+
+      form {
+        width: 420px;
+        top: 80px;
+        left:0%;
+        height: 240px;
+      }
+    
+      label {
+        width: 90px;
+      }
+    
+      input,
+      textarea {
+        width: 300px;
+      }
+    
+      .btn {
+        padding-left: 90px;
+        margin-left: 0.5em;
+        bottom: 8px;
+        height: 34px;
+        left: 21%;
+      }
+    
+      footer {
+          height: 85px;
+      }
+      .dev-logo {
+          top: 6px;
+          left: 10px;
+      }
+      .footer-message {
+          bottom: 2px;
+          left: 10px;
+      }
+      .CA,.SL,.WCS {
+          top: 12px;
+          margin: 0;
+          padding: 0;
+          font-size: 13px;
+      }
+      .CA {
+          left: 150px;
+      }
+      .SL{
+        left: 270px;
+      }
+      .WCS {
+        left: 360px;
+      }
+      .icon { 
+        width: 23px;
+        height: 23px;
+        top: 9px;
+    }
+    .i-one {
+        left: 129px;
+    }
+    .i-two {
+        left: 247px;
+    }
+    .i-three {
+        left: 337px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px){
+    .background {
+        display: none;
+      }
+      .first-nav-item {
+        left: 42%;
+      }
+      .second-nav-item {
+        left: 62%;
+      }
+      .third-nav-item {
+        left: 75%;
+      }
+    
+      nav {
+        width: 99.1%;
+      }
+      nav > ul {
+        right: 0px;
+      }
+      .first-section {
+        top: 0px;
+        height: 500px;
+      }
+      .second-section {
+        height: 1200px;
+      }
+      .third-section {
+        height: 400px;
+      }
+      .fourth-section {
+          height: 400px;
+      }
+    
+      .title {
+        top: 60px;
+        left: 40%;
+        font-size: 33px;
+      }
+      .first-card,
+      .second-card {
+        position: absolute;
+        top: 190px;
+      }
+      .third-card {
+          position: absolute;
+          top: 640px;
+          left: 35%;
+      }
+      .first-card {
+        left: 10%
+      }
+      .second-card {
+        left: 60%;
+      }
+      .f-card-title,
+      .s-card-title {
+        left: 40%;
+      }
+      h3.f-card-title {
+          top: 190px;
+      }
+      .t-card-title,
+      .f-card-title,
+      .s-card-title {
+        font-family: "Amatic SC", cursive;
+        font-size: 29px;
+        position: absolute;
+      }
+      .t-card-title {
+        left: 38%;
+      }
+      .card-text {
+        left: 2%;
+        top: 250px;
+      }
+      .about-title {
+        top: 540px;
+        font-size: 33px;
+        left: 40%;
+      }
+      .about-img {
+        display: none;
+      }
+      .about-textf {
+        top: 620px;
+        left: 12.5%;
+        font-size: 22px;
+      }
+      .about-texts {
+        top: 670px;
+        width: 78%;
+        left: 10%;
+        text-align: align-left;
+        font-size: 22px;
+      }
+      .signature {
+        font-size: 29px;
+        top: 1100px;
+        left: 66%;
+      }
+      .prices {
+        top: 90px;
+        left: 13%;
+        width: 70%;
+      }
+      .prices-title {
+        top: 0px;
+        left: 43.5%;
+        font-size: 33px;
+      }
+      .prices tbody td {
+        font-size: 15px;
+      }
+      table.prices thead th {
+        font-size: 15px;
+      }
+    
+      small {
+        left: 110px;
+        font-size: 13px;
+      }
+    
+      .n-helper {
+        top: 42px;
+        left: 23%;
+      }
+    
+      .e-helper {
+        top: 89px;
+        left: 23%;
+      }
+
+      .contact-title {
+        left: 43%;
+        font-size: 33px;
+      }
+
+      form {
+        width: 420px;
+        top: 80px;
+        left:0%;
+        height: 240px;
+      }
+    
+      label {
+        width: 90px;
+      }
+    
+      input,
+      textarea {
+        width: 300px;
+      }
+    
+      .btn {
+        padding-left: 90px;
+        margin-left: 0.5em;
+        bottom: 8px;
+        height: 34px;
+        left: 21%;
+      }
+    
+      footer {
+          height: 85px;
+      }
+      .dev-logo {
+          top: 6px;
+          left: 90px;
+      }
+      .footer-message {
+          bottom: 2px;
+          left: 20%;
+      }
+
+      .CA,.SL,.WCS {
+          top: 12px;
+          margin: 0;
+          padding: 0;
+          font-size: 13px;
+      }
+      .CA {
+          left: 350px;
+      }
+      .SL{
+        left: 470px;
+      }
+      .WCS {
+        left: 560px;
+      }
+      .icon { 
+        width: 23px;
+        height: 23px;
+        top: 9px;
+    }
+    .i-one {
+        left: 329px;
+    }
+    .i-two {
+        left: 447px;
+    }
+    .i-three {
+        left: 537px;
+    }
+}
+@media (min-width: 1024px) {
+    .background {
+        position: absolute;
+        opacity: 0.21;
+        top: 0%;
+        z-index: -300;
+        width: 100%;
+        height: 656px;
+      }
+      .first-nav-item {
+        left: 42%;
+      }
+      .second-nav-item {
+        left: 62%;
+      }
+      .third-nav-item {
+        left: 75%;
+      }
+    
+      nav {
+        width: 99.1%;
+      }
+      nav > ul {
+        right: 0px;
+      }
+      .first-section {
+        top: 0px;
+        height: 200px;
+      }
+      .second-section {
+        height: 1200px;
+      }
+      .third-section {
+        height: 400px;
+      }
+      .fourth-section {
+          height: 400px;
+      }
+    
+      .title {
+        top: 60px;
+        left: 40%;
+        font-size: 33px;
+      }
+      .first-card,
+      .second-card,
+      .third-card {
+          top: 33%;
+          position: absolute;
+      }
+      .first-card {
+        left: 8%;
+      }
+      .second-card {
+        left: 38.4%;
+      }  
+      .third-card {
+        left: 69%;
+      }
+      .subTitle {
+        left: 40%;
+        top: 92%;
+      }
+      .card-text {
+        text-align: center;
+        left: 2%;
+        top: 250px;
+      }
+    
+      .f-card-title,
+      .s-card-title {
+        left: 40%;
+      }
+      h3.f-card-title {
+          top: 190px;
+      }
+      .t-card-title,
+      .f-card-title,
+      .s-card-title {
+        font-family: "Amatic SC", cursive;
+        font-size: 29px;
+        position: absolute;
+      }
+      .t-card-title {
+        left: 38%;
+      }
+     
+      .about-title {
+        top: 440px;
+        font-size: 33px;
+        left: 40%;
+      }
+   
+      .about-img {
+        position: absolute;
+        width: 500px;
+        height: 460px;
+        top: 500px;
+        left: 0%;
+      }
+      .about-textf {
+        top: 620px;
+        left: 41.5%;
+        font-size: 22px;
+      }
+      .about-texts {
+        top: 670px;
+        width: 58%;
+        left: 39%;
+        text-align: align-left;
+        font-size: 120%;
+        height: 130px;
+      }
+      .signature {
+        font-size: 29px;
+        top: 990px;
+        left: 84%;
+      }
+      .prices {
+        top: 90px;
+        left: 13%;
+        width: 70%;
+      }
+      .prices-title {
+        top: 0px;
+        left: 43.5%;
+        font-size: 33px;
+      }
+      .prices tbody td {
+        font-size: 15px;
+      }
+      table.prices thead th {
+        font-size: 15px;
+      }
+    
+      small {
+        left: 110px;
+        font-size: 13px;
+      }
+    
+      .n-helper {
+        top: 42px;
+        left: 23%;
+      }
+    
+      .e-helper {
+        top: 89px;
+        left: 23%;
+      }
+
+      .contact-title {
+        left: 43%;
+        font-size: 33px;
+      }
+
+      form {
+        width: 420px;
+        top: 80px;
+        left:0%;
+        height: 240px;
+      }
+    
+      label {
+        width: 90px;
+      }
+    
+      input,
+      textarea {
+        width: 300px;
+      }
+    
+      .btn {
+        padding-left: 90px;
+        margin-left: 0.5em;
+        bottom: 8px;
+        height: 34px;
+        left: 21%;
+      }
+    
+      footer {
+          height: 50px;
+      }
+      .dev-logo {
+          top: 6px;
+          left: 40px;
+      }
+      .footer-message {
+          bottom: 2px;
+          right: 10%;
+      }
+      .CA,.SL,.WCS {
+          top: 12px;
+          margin: 0;
+          padding: 0;
+          font-size: 13px;
+      }
+      .CA {
+          left: 190px;
+      }
+      .SL{
+        left: 310px;
+      }
+      .WCS {
+        left: 400px;
+      }
+      .icon { 
+        width: 23px;
+        height: 23px;
+        top: 9px;
+    }
+    .i-one {
+        left: 165px;
+    }
+    .i-two {
+        left: 285px;
+    }
+    .i-three {
+        left: 377px;
+    }
+    hr.line-one, 
+    hr.line-two {
+        position: relative;
+        width: 100%;
+        background-color: black;
+    }
+    hr.line-one {
+        height: 0.2px;
+        top: 790px;
+    }
+    hr.line-two {
+        height: 0.7px;
+        top: 1178px;
+    }
+}
